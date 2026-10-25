@@ -1,4 +1,5 @@
 # alfido-python-task2
+
 Alfido Tech Python Developer Internship - Task 2: API Integration & JSON Handling
 
 ## About
@@ -10,8 +11,10 @@ A small Python project that fetches data from a REST API, filters and searches i
 3. Error handling: handles HTTP errors (404, 5xx), connection errors, timeouts and invalid JSON without crashing.
 
 ## How to run
+```
 pip install requests
 python main.py
+```
 
 ## Output
 - Total posts fetched: 100
@@ -21,3 +24,9 @@ python main.py
 
 ## Concepts used
 requests.get, status codes, raise_for_status(), try/except, list comprehensions, timeouts.
+
+## Repository
+https://github.com/alokupadhyay652/alfido-python-task2
+
+## Document
+https://drive.google.com/file/d/1ipWZn_aOGCiT5gMQUF3y4TvSphgcCNd9/view?usp=drivesdk
